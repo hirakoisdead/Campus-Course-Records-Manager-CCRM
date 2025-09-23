@@ -122,19 +122,15 @@ java Main.java
 5. Import project
 
 ---
+Read the 'How to Use' section above to setup and refer to `usage.md` for commands.
 
-##  Usage (Quick Guide)
-![project-set-up.png](resources/project-set-up.png)
----
-## 🖥 Screen Shots
+## Screen Shots
 # 1. java installation verification
-![java-verification.png]()
+![java-verification.png](https://github.com/hirakoisdead/Campus-Course-Records-Manager-CCRM/blob/main/Screenshot/javaversion.png)
 
-# 2. project set up and run ( run the commands as described above)
-![project-set-up.png]()
-
-
+# 2. project set up 
+![project-set-up.png](https://github.com/hirakoisdead/Campus-Course-Records-Manager-CCRM/blob/main/Screenshot/setup.png)
 
 # 4. project folders structure
-![project-folders-structure.png]()
+![project-folders-structure.png](https://github.com/hirakoisdead/Campus-Course-Records-Manager-CCRM/blob/main/Screenshot/filestruct.png)
 ---
