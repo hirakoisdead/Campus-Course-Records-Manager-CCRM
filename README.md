@@ -72,7 +72,7 @@ Campus-Course-Records-Manager-CCRM/
 │               ├── cli
 │               │   └── Main.java
 │               ├── config
-│               │   ├── AppConfig.java
+│               │   └── AppConfig.java
 │               ├── domain
 │               │   ├── Course.java
 │               │   ├── Enrollment.java
