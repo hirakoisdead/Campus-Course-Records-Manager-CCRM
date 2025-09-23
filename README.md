@@ -59,7 +59,7 @@ javac Main.java
 java Main.java
 ```
 
-## 📂 Project Structure (detailed)
+##  Project Structure
 ```
 CCRM/
 ├── test_data/                  
@@ -206,7 +206,7 @@ Campus-Course-Records-Manager-CCRM/
 ---
 Read the 'How to Use' section above to setup and refer to `usage.md` for commands.
 
-## Screen Shots
+## Screenshots
 # 1. java installation verification
 ![java-verification.png](https://github.com/hirakoisdead/Campus-Course-Records-Manager-CCRM/blob/main/Screenshot/javaversion.png)
 
