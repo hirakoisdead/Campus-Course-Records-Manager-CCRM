@@ -84,7 +84,7 @@ Campus-Course-Records-Manager-CCRM/
 │               ├── exception
 │               │   ├── MaxCreditLimitExceededException.java
 │               │   └── DuplicateEnrollmentException.java
-│               ├──  io
+│               ├── io
 │               │   └── FileUtil.java
 │               └── service
 │                   ├── CourseService.java
