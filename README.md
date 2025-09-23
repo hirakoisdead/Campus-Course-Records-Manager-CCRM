@@ -61,6 +61,88 @@ java Main.java
 
 ## 📂 Project Structure (detailed)
 ```
+CCRM/
+├── test_data/                  
+│   ├── students.csv
+│   └── courses.csv
+│
+├── screenshots/   
+
+│
+└── src/
+    └── edu/
+        └── ccrm/
+            ├── cli/ 
+            │   └── Main.java                
+            │
+            ├── domain/                 # Core data classes (POJOs) [cite: 99]
+            │   ├── Person.java         # Abstract base class [cite: 60, 100]
+            │   ├── Student.java        # Inherits from Person [cite: 100]
+            │   ├── Instructor.java     # Inherits from Person [cite: 100]
+            │   ├── Course.java         # Data class, likely built with Builder pattern [cite: 100]
+            │   ├── Enrollment.java     # Links Student and Course, contains grade
+            │   ├── Grade.java          # Enum with fields (S, A, B...) [cite: 74, 100]
+            │   └── Semester.java       # Enum (SPRING, FALL...) [cite: 74, 105]
+            │
+            ├── service/                # Business logic interfaces and implementations [cite: 101, 108]
+            │   ├── StudentService.java
+            │   ├── CourseService.java
+            │   ├── EnrollmentService.java
+            │   └── TranscriptService.java
+            │
+            ├── io/                     # File input/output operations [cite: 102, 109]
+            │   ├── ImportExportService.java # Handles CSV reading/writing using NIO.2/Streams [cite: 30]
+            │   └── BackupService.java       # Handles backup logic 
+            │
+            ├── util/                   # Helper classes, custom exceptions [cite: 104, 107]
+            │   ├── InputValidator.java
+            │   ├── CourseComparator.java   # Example for sorting logic
+            │   └── exception/
+            │       ├── DuplicateEnrollmentException.java     # [cite: 87]
+            │       └── MaxCreditLimitExceededException.java  # [cite: 88]
+            │
+            └── config/                 # Configuration and design pattern classes [cite: 111]
+                ├── AppConfig.java      # Singleton pattern implementation [cite: 80, 112]
+                └── CourseBuilder.java  # Builder pattern implementation [cite: 81, 112]
+
+Campus-Course-Records-Manager-CCRM/
+├── CCRM
+│   ├── sample_data
+│   │   ├── courses_sample.csv
+│   │   └── students_sample.csv
+│   └── src
+│       └── edu
+│           └── ccrm
+│               ├── cli
+│               │   └── Main.java
+│               ├── config
+│               │   ├── AppConfig.java
+│               ├── domain
+│               │   ├── Course.java
+│               │   ├── Enrollment.java
+│               │   ├── Grade.java
+│               │   ├── Instructor.java
+│               │   ├── Person.java
+│               │   ├── Semester.java
+│               │   └── Student.java
+│               ├── exception
+│               │   ├── MaxCreditLimitExceededException.java
+│               │   └── DuplicateEnrollmentException.java
+│               ├──  io
+│               │   └── FileUtil.java
+│               └── service
+│                   ├── CourseService.java
+│                   ├── EnrollmentService.java
+│                   └── StudentService.java
+├── Screenshot/
+│   ├── filestruct.png   
+│   ├── javaversion.png      
+│   └──  setup.png
+├── test_data
+│   ├── courses_sample.csv
+│   └── students_sample.csv
+├── README.md
+└── usage.md
 
 ```
 
