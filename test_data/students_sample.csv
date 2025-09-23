@@ -1,0 +1,6 @@
+id,regNo,fullName,email,active
+S1,24BCE93421,Aarav,aarav@vit.ac.in,true
+S2,24BCE15873,Tanya,tanya@vit.ac.in,false
+S3,24BCE48290,Nikhil,nikhil@vit.ac.in,true
+S4,24BCE71345,Diya,diya@vit.ac.in,false
+S5,24BCE65982,Kunal,kunal@vit.ac.in,true
