@@ -17,11 +17,16 @@
 </p>
 
 <p align="center">
-  <a href="#Key-Features">Key Features</a> •
-  <a href="#Requirements">Requirements</a> •
-  <a href="#How-To-Use">Build & Run</a> •
-  <a href="#Project-Structure">Project Structure</a> •
-  <a href="#Screenshots">Screenshots</a> 
+  <a href="#key-features">Key Features</a> •
+  <a href="#requirements">Requirements</a> •
+  <a href="#how-to-use">Build & Run</a> •
+  <a href="#project-structure">Project Structure</a> •
+  <a href="#-evolution-of-java">Evolution of Java</a> •
+  <a href="#java-me-vs-se-vs-ee">Java ME vs SE vs EE</a> •
+  <a href="#jdk-jre-jvm-explained">JDK, JRE, JVM</a> •
+  <a href="#-mapping-syllabus--implementation">Mapping Syllabus → Implementation</a> •
+  <a href="#install-on-windows">Install on Windows</a> •
+  <a href="#screenshots">Screenshots</a>
 </p>
 
 ---
@@ -115,7 +120,7 @@ Campus-Course-Records-Manager-CCRM/
 
 ---
 
-## ☕ Java ME vs SE vs EE
+## Java ME vs SE vs EE
 | Edition | Purpose | Example Use Cases |
 |---------|---------|------------------|
 | **ME (Micro Edition)** | Lightweight, resource-constrained devices | Embedded systems, feature phones |
@@ -124,13 +129,13 @@ Campus-Course-Records-Manager-CCRM/
 
 ---
 
-## 🔑 JDK, JRE, JVM Explained
+## JDK, JRE, JVM Explained
 - **JVM** (Java Virtual Machine): Executes compiled bytecode.
 - **JRE** (Java Runtime Environment): JVM + standard libraries to *run* Java apps.
 - **JDK** (Java Development Kit): JRE + compiler + dev tools to *build* apps.
 
 ---
-## 📑 Mapping Syllabus → Implementation
+##  Mapping Syllabus → Implementation
 | Syllabus Topic | Where in Project |
 |----------------|------------------|
 | OOP (Encapsulation, Inheritance, Polymorphism) | `domain/Student.java`, `domain/Instructor.java`, `domain/Course.java` |
